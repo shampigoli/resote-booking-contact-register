@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* / Define the scrollbar track / */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px; 
+}
+
+/* / Style the scrollbar thumb / */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background:brown; 
+    border-radius: 6px; 
+}
+
+/* / Style the scrollbar track / */
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* / Apply styles to the content within the scrollable container / */
+.scroll-container {
+    width: 200px; 
+    height: 300px; 
+    overflow: auto;
+}
